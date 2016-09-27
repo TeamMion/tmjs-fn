@@ -1,0 +1,32 @@
+{
+  "name": "tmjs-fn",
+  "version": "1.0.0-alpha.1",
+  "description": "TM.js Functional programming library",
+  "main": "build/tmjs-fn.js",
+  "scripts": {
+    "build": "bin/build",
+    "publish": "bin/publish",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teammion/tmjs-fn.git"
+  },
+  "keywords": [
+    "tmjs-fn",
+    "tmjs",
+    "fn",
+    "functional",
+    "function",
+    "tm.js"
+  ],
+  "author": "Stefan Wimmer <stefanwimmer128@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teammion/tmjs-fn/issues"
+  },
+  "homepage": "https://github.com/teammion/tmjs-fn#readme",
+  "dependencies": {
+    "tmjs-core": "github:teammion/tmjs-core"
+  }
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+version="$(nodejs <<< "console.log(require(\"./package\").version);")"
+
+test -d build && rm -dr build
+mkdir build
+
+cp tmjs-fn.js build/tmjs-fn.js
+sed -i "s#\${version}#${version}#" build/tmjs-fn.js
